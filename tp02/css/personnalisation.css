@@ -1,0 +1,67 @@
+body > header > h1 {
+    color: yellow;
+    font-style: italic;
+    font-size: 30px;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+body > footer {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+section > header > h1 {
+    color: yellow;
+    background-color: blue;
+    margin-top: 0;
+    padding-bottom: 30px;
+    font-style: italic;
+    font-size: 30px;
+}
+
+h3 {
+    color: yellow;
+    background-color: blue;
+    margin-top: 0;
+    padding-bottom: 20px;
+    font-style: italic;
+}
+
+nav li {
+    list-style-image: url("../img/vert.png");
+}
+
+td > ul > li {
+    list-style-image: url("../img/bleu.png");
+}
+
+ul > li li {
+    list-style-image: url("../img/rouge.png");
+}
+
+nav a {
+    color: green;
+}
+
+nav a:hover {
+    color: white;
+    background-color: green;
+}
+
+table {
+    width: 100%;
+    border-style: ridge;
+    border-width: 10px;
+}
+
+th {
+    border-width: 10px;
+}
+
+td {
+    border-color: blue;
+    border-width: 1px;
+}
