@@ -1,0 +1,25 @@
+nav > ul > li {
+    list-style-type: none;
+    font-size: smaller;
+    background-color: gray;
+    border: 3px groove black;
+    padding-left: 5%;
+}
+
+nav > ul > li:hover {
+    font-weight: bold;
+    background-color: darkgray;
+    margin-left: 10%;
+    transition: margin-left 2s;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    transition: background-color 2s;
+}

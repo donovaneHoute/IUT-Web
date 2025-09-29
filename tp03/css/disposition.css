@@ -1,0 +1,76 @@
+/*Positionnement fixed*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body > header, body > footer {
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  background-color: cyan;
+  text-align: center;
+  height: 60px;
+}
+
+body > header {
+  top: 0;
+}
+
+body > footer {
+  bottom: 0;
+}
+
+main {
+  margin-right: 1%;
+  margin-left: 19%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-style: solid;
+  border-color: blue;
+  border-width: thin;
+}
+
+main > section {
+  border-style: solid;
+  border-color: green;
+  border-width: thin;
+  margin: 5px;
+}
+
+main > section:target {
+    padding-top: 100px; 
+}
+
+section > header {
+  border-style: solid;
+  border-color: maroon;
+  border-width: thin;
+  margin: 5px;
+}
+
+section section {
+  border-style: dashed;
+  border-color: maroon;
+  border-width: thin;
+  margin: 5px;
+}
+
+table, td, th {
+  border-collapse: separate;
+  border-style: solid;
+  border-color: red;
+}
+
+nav {
+  position: fixed;
+  border-style: solid;
+  border-color: yellow;
+  border-width: thin;
+  width: 18%;
+  margin: 0;
+  padding: 2px;
+  left: 5px;
+  top: 100px;
+}

@@ -1,0 +1,54 @@
+body > header > h1 {
+	display: inline;
+	color: yellow;
+	font-size: xx-large;
+	font-style: italic;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+body > footer {
+	font-size: xx-large;
+	font-style: italic;
+  font-weight: bolder;
+}
+
+section > header > h1 {
+  background-color: blue; 
+	color: yellow;
+	font-size: xx-large;
+	font-style: italic;
+	margin-top: 0;
+	padding-bottom: 20px;
+}
+
+h3 {
+	background-color: blue;
+	color: yellow;
+	font-style: italic;
+	margin-top: 5px;
+	padding-bottom: 20px;
+}
+
+td > ul > li {
+	list-style-image: url("../img/bleu.png");
+}
+
+ul > li li {
+	list-style-image: url("../img/rouge.png");
+}
+
+table {
+	width: 100%;
+	border-style: groove;
+	border-width: 10px;
+}
+
+th {
+	border-width: 10px;
+}
+
+td {
+	border-width: thin;
+	border-color: blue;
+}
