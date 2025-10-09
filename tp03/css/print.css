@@ -1,3 +1,27 @@
-header>h1 {
-    color: black;
+@media print {
+    body > header, nav, body > footer, section>a>img {
+        display: none;
+    }
+
+    main {
+        border: none;
+        margin: auto;
+    }
+
+    section > h3, section > header > h1, h3{
+        background-color: white;
+        color: black
+    }
+
+    table, td, th {
+        border: 1px solid black;
+    }
+
+    td > ul > li {
+        list-style-image: none;
+    }
+
+    ul > li li {
+        list-style-image: none;
+    }
 }
