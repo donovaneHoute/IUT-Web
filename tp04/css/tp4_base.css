@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 5px;
+}
+
+/** En-tête et pied de page */
+body > header, body > footer {
+  position: fixed;
+  width: calc(100% - 20px); /* Pensez aux marges intérieures et extérieures : 20px ici */
+  padding: 5px;
+  background-color: cyan;
+  text-align: center;
+}
+
+body > header {
+  top: 0;
+  margin-top: 5px;
+}
+
+body > footer {
+  bottom: 0;
+  margin-bottom: 5px;
+}
+
+body > header * {
+  display: inline-block;
+  vertical-align: middle;
+	margin: 5px 1%; /* Espacement entre éléments */
+}
+
+/** Menu */
+nav {
+  border: thin solid blue;
+  margin-top: 85px; /* Placement sous l'en-tête */
+}
+
+menu > li { /* Ceci sert uniquement à vous simplifier le placement du menu pour ce TP */
+  min-height: 25px;
+  /*! vertical-align: top; */
+}
+
+/** Partie principale */
+main {
+  margin-bottom: 30px; /* Espacement laissant de la place pour le pied de page */
+}
+
+article {
+  border: thin solid green;
+  padding: 3px;
+}
+
+article { /* Tous les articles sauf le premier */
+  margin-block: 5px;
+}
+
+article:target {
+    padding-top: 90px; /* Placement de l'article ciblé */
+}
+
+article > header {
+  border: thin solid maroon;
+  background-color: antiquewhite;
+  text-align: center;
+  padding: 5px;
+}
+
+article > header > * {
+  margin-block: 5px;
+}
+
+article h1 {
+  border-bottom: thin solid maroon;
+  font-size: xx-large;
+}
+
+h2 {
+  font-style: italic;
+}
+
+article section {
+  border: thin dashed maroon;
+  margin-block: 5px 0;
+}
+
+h3 {
+	background-color: lightblue;
+	color: brown;
+	font-style: italic;
+	margin-block: 0 5px;
+	padding: 5px;
+}
+
+table, td, th {
+  border-collapse: collapse;
+  border: thick ridge lightcoral;
+}
+
+td li {
+	list-style-image: url("../img/bleu.png");
+}
+
+td li li {
+	list-style-image: url("../img/rouge.png");
+}
