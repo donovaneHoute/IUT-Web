@@ -1,0 +1,37 @@
+menu li ul {
+    display: none;
+}
+
+menu > li {
+    list-style: none;
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    vertical-align: top;
+}
+
+menu > li:first-child a {
+    vertical-align: middle;
+}
+
+menu > li:first-child a img { 
+    vertical-align: middle; 
+}
+
+article {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+menu > li:hover {
+    color: white;
+    background-color: blue;
+}
+
+menu > li:hover ul {
+    display: block;
+    border: thin dashed blue;
+    background-color: white;
+    padding: 0;
+}
