@@ -18,12 +18,6 @@ menu > li:first-child a img {
     vertical-align: middle; 
 }
 
-article {
-    width: 49%;
-    display: inline-block;
-    vertical-align: top;
-}
-
 menu > li:hover {
     color: white;
     background-color: blue;
