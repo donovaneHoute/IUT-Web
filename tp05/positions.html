@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8" >
+	<title>Positionnement</title>
+	<style>
+		header {
+			margin: 10px 5%;
+			padding: 10px;
+			border: 2px solid darkgrey;
+			border-radius: 0.5em;
+			box-shadow: 5px 5px 5px darkgray;
+			background-image: radial-gradient(white, lightgray);
+		}
+		header > :is(a, h1) {
+			border: thin solid chocolate;
+		}
+		header:hover::before{
+			position: fixed;
+			content: "#" attr(id);
+			top: 5px;
+			left: 5px;
+			background-color: lightgray;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="css/positionnement.css" media="all">
+</head>
+<body>
+	<header id="un">
+		<a href="https://iut.univ-lille.fr/">
+			<img src="img/logo_iut.png" alt="Logo IUT" height="50">
+		</a>
+		<h1>Positionnement classique</h1>
+		<a href="http://www.univ-lille.fr/">
+			<img src="img/logo_univ-lille.png" alt="Logo ULille" width="140">
+		</a>
+	</header>
+	<header id="deux">
+		<a href="https://iut.univ-lille.fr/">
+			<img src="img/logo_iut.png" alt="Logo IUT" height="50">
+		</a>
+		<h1>Positionnement relatif</h1>
+		<a href="http://www.univ-lille.fr/">
+			<img src="img/logo_univ-lille.png" alt="Logo ULille" width="140">
+		</a>
+	</header>
+	<header id="trois">
+		<a href="https://iut.univ-lille.fr/">
+			<img src="img/logo_iut.png" alt="Logo IUT" height="50">
+		</a>
+		<h1>Positionnement flottant</h1>
+		<a href="http://www.univ-lille.fr/">
+			<img src="img/logo_univ-lille.png" alt="Logo ULille" width="140">
+		</a>
+	</header>
+	<header id="quatre">
+		<a href="https://iut.univ-lille.fr/">
+			<img src="img/logo_iut.png" alt="Logo IUT" height="50">
+		</a>
+		<h1>Positionnement flexible</h1>
+		<a href="http://www.univ-lille.fr/">
+			<img src="img/logo_univ-lille.png" alt="Logo ULille" width="140">
+		</a>
+	</header>
+</body>
+</html>

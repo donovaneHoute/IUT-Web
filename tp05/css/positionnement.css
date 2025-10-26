@@ -1,0 +1,25 @@
+header h1 {
+    display: inline;
+}
+
+/* Bloc 1 : */
+
+#un {
+    text-align: center;;
+}
+
+#un a {
+    margin-inline: 15%;
+}
+
+/* Bloc 2 : */
+
+#deux {
+    text-align: center;
+}
+
+/* Bloc 3 : */
+
+#trois {
+    text-align: center;
+}
