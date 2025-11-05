@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/incident.css" method="GET">
+        <title>Incident</title>
+    </head>
+    <body>
+        <h1>Ticket incident</h1>
+        <form name="ticket_incident" action="./afficherVariables.php">
+            <fieldset>
+                <legend>Demande d'intervention</legend>
+                <fieldset>
+                    <legend>Coordonées</legend>
+
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" placeholder="Votre nom" required>
+                    <br>
+                    <label for="forname">Prénom</label>
+                    <input type="text" id="forname" placeholder="Votre prénom" required>
+                    <br>
+                    <label for="portable">Portable</label>
+                    <input type="text" id="portable" placeholder="06 xx xx xx xx" required>
+                    <br>
+                    <label for="mail">Courriel</label>
+                    <input type="email" id="name" placeholder="email@example.com" required>
+
+                    <fieldset>
+                        <legend>Vous souhaitez être contacté par</legend>
+
+                        <label for="telephone">Téléphone</label>
+                        <input type="checkbox" id="telephone" checked >
+                        <br>
+                        <label for="sms">SMS</label>
+                        <input type="checkbox" id="sms">
+                        <br>
+                        <label for="message">Messagerie</label>
+                        <input type="checkbox" id="message">
+                    </fieldset>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Incident</legend>
+                    <label>Type de machine :</label>
+                    <label for="choose_portable">Portable</label>
+                    <input type="radio" id="choose_portable" name="choose">
+
+                    <label for="choose_desktop">Desktop</label>
+                    <input type="radio" id="choose_desktop" name="choose">
+                    <br>
+                    <label for="date">Date de l'incident</label>
+                    <input type="date" id="date" max="2027-12-31" required>
+                    <br>
+                    <label for="description">Description du l'incident</label>
+                    <textarea id="description" title="Veuillez décrire la nature de votre panne" required>Décriver ici la nature de la panne</textarea>
+                    <br>
+                    <label for="documents">Documents supplémentaires</label>
+                    <input type="file" id="documents" title="Importer un fichier supplémentaire" accept=".pdf,.jpeg,.jpg,.png" required>
+                    <br>
+                    <label for="gravity">Gravité de l'incident</label>
+                    <input type="range" id="gravity" required>
+                    <br>
+                    <label for="urgency">Urgence de l'intervention</label>
+                    <select id="urgency" required>
+                        <option value="">Choisissez un niveau de priorité</option>
+                        <option value="test">Test</option>
+                    </select>
+                    
+                </fieldset>
+
+                <button>Envoyer ma demande</button>
+                <button>Effacer</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
