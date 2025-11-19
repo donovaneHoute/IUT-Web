@@ -13,3 +13,4 @@
   - 📄 **TP 03** : [Voir le PDF](https://raw.githubusercontent.com/donovaneHoute/IUT-Web/main/ressources/docs/tp3.pdf)
   - 📄 **TP 04** : [Voir le PDF](https://raw.githubusercontent.com/donovaneHoute/IUT-Web/main/ressources/docs/tp4.pdf)
   - 📄 **TP 05** : [Voir le PDF](https://raw.githubusercontent.com/donovaneHoute/IUT-Web/main/ressources/docs/tp5.pdf)
+  - 📄 **TP 06** : [Voir le PDF](https://raw.githubusercontent.com/donovaneHoute/IUT-Web/main/ressources/docs/tp6.pdf)
